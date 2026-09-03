@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   
+    <meta name="color-scheme" content="light dark">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Mi Biblioteca Virtual</title>
+</head>
+<body>
+   
+    <header class="container"> 
+    
+        <h1> Mi Biblioteca Virtual</h1>
+        <p>Descubre, explora y disfruta de una gran colección de libros.</p>
+
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Libros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="container">
+
+        <section>
+            <h2>Libros Destacados</h2>
+
+        <div class="grid"> 
+            
+            <article>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr_71b_yRxXr-VjG-5n0vB-veLIQhYFom97-W36h8FFCXWmfbRHTnifoQ&s=10" alt="Portada Cien Años De Soledad">
+                <h3>Cien años De Soledad</h3>
+                <p>Gabriel García Márquez</p>
+                <br>
+                <p>Es una novela clásica del escritor colombiano Gabriel García Márquez, publicada en 1967.</p>
+                <p>Cien años de soledad es una novela del escritor colombiano ganador del Premio Nobel de Literatura Gabriel García Márquez.
+                     Es opinión general que se trata de una obra maestra de la literatura hispanoamericana y universal,
+                    y es una de las obras más traducidas y leídas en español.</p>
+                <footer><a href="#">Ver más</a></footer>
+            </article>
+
+            <article> 
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDIxIqMF1lRlaxHPfqMwEbyaM9-k3g3f-Wfgni_ckH9kX9YsN_jAJJb8s&s=10" alt="Portada El Señor De Los Amillos">
+                <h3>El Señor De los Anillos</h3>
+                <p>J. R. R. Tolkien</p>
+                <br>
+                <p>El Señor de los Anillos es una novela de fantasía épica escrita por el filólogo y escritor británico J. R. R. Tolkien, 
+                    publicada el 29 de julio de 1954.</p>
+                <p>Su historia se desarrolla en la Tercera Edad del Sol de la Tierra Media,
+                    un lugar ficticio poblado por hombres y otras razas antropomorfas, como los hobbits,
+                    los elfos o los enanos, así como por muchas otras criaturas reales y fantásticas. 
+                    La novela narra el viaje del protagonista principal, Frodo Bolsón, hobbit de la Comarca, 
+                    para destruir el Anillo Único y la consiguiente guerra que provocará el enemigo para recuperarlo, 
+                    ya que es la principal fuente de poder de su creador, el señor oscuro Sauron.</p>
+
+            </article>
+
+            <article>
+                <img src="https://www.pottermorepublishing.com/wp-content/covers/web/9781781102701.jpg" alt="Portada Harry Potter y las reliquias de la muerte">
+                <h3>Harry Potter y Las reliquias De La Muerte</h3>
+                <p>J. K. Rowling</p>
+                <br>
+                <p>Harry Potter y las reliquias de la Muerte, es el séptimo libro de la serie literaria Harry Potter,
+                 escrita por la autora británica J. K. Rowling. El libro se publicó el 21 de julio de 2007</p>
+                 <p>Cerrando la serie que empezó diez años antes con la publicación de Harry Potter y la piedra filosofal publicado en 1997.
+                 Este último libro narra los acontecimientos que siguen directamente al libro anterior:
+                 Harry Potter y el misterio del príncipe —publicado en 2005—, y concluye con el enfrentamiento final,
+                 largamente esperado, entre Harry Potter junto a sus amigos, frente a lord Voldemort y los Mortífagos.</p>
+
+            </article>
+
+
+
+            </section>
+        </div>
+
+        <h2>Agregar un Nuevo Libro</h2>
+       
+        <form>
+            <label for="titulo">Título del libro</label>
+            <input type="text" id="titulo" name="titulo" placeholder="Ej. El Hobbit" required>
+            
+            <label for="autor">Autor</label>
+            <input type="text" id="autor" name="autor" placeholder="Ej. J.R.R. Tolkien" required>
+
+            <button type="submit">Agregar Libro</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Mi Biblioteca Virtual</p>
+        <p>Hecho con Amor y Pico CSS</p>
+    </footer>
+</body>
+</html>
