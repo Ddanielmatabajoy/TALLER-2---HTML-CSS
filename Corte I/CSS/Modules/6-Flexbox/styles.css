@@ -1,0 +1,15 @@
+.contenedor {
+    /* Activa Flexbox */
+    display:flex;
+    /* Distribuye horizontalmente */
+    justify-content:space-around;
+    /* Alineación vertical */
+    align-items:center;
+    height:500px;
+}
+
+.caja {
+    width:100px;
+    height:100px;
+    border:1px solid black;
+}

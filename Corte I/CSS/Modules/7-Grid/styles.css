@@ -1,0 +1,11 @@
+.contenedor{
+    display:grid;
+    /* Tres columnas */
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+}
+
+.caja {
+    border:1px solid black;
+    padding:20px;
+}

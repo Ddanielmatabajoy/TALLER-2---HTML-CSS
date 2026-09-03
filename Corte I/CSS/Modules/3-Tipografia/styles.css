@@ -1,0 +1,12 @@
+h1 {
+    /* Tipo de letra */
+    font-family: Arial;
+    /* Tamaño */
+    font-size:40px;
+}
+
+p {
+    font-size:20px;
+    /* Alineación */
+    text-align:justify;
+}

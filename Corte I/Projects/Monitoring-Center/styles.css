@@ -1,0 +1,88 @@
+html{
+    scroll-behavior:smooth;
+}
+
+/* ---------- NAV ---------- */
+
+nav{
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    padding:.5rem 2rem;
+
+    background:var(--pico-background-color);
+
+    border-bottom:1px solid var(--pico-muted-border-color);
+}
+
+nav a{
+    border-radius:8px;
+    padding:.4rem .8rem;
+    transition:.2s;
+}
+
+nav a:hover{
+    background:var(--pico-primary);
+    color:white;
+    text-decoration:none;
+}
+
+/* ---------- HEADER ---------- */
+
+header{
+    text-align:center;
+    padding:3rem 1rem;
+}
+
+/* ---------- CARDS ---------- */
+
+.contenedor{
+
+    display:flex;
+    gap:1.5rem;
+    flex-wrap:wrap;
+
+}
+
+.contenedor article{
+
+    flex:1;
+    min-width:250px;
+
+}
+
+img{
+
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:10px;
+
+}
+
+progress{
+
+    width:100%;
+    margin:.5rem 0;
+
+}
+
+/* ---------- LISTA ---------- */
+
+ul li{
+    margin-bottom:.5rem;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer{
+
+    margin-top:3rem;
+    padding:2rem;
+
+    text-align:center;
+
+    border-top:1px solid var(--pico-muted-border-color);
+
+}

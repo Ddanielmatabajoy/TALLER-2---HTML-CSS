@@ -1,0 +1,13 @@
+.contenedor {
+    width:800px;
+    border:1px solid black;
+}
+
+/*
+Cuando el ancho sea menor a 768px
+*/
+@media(max-width:768px){
+    .contenedor{
+        width:100%;
+    }
+}

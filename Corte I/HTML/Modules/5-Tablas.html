@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- Permite mostrar caracteres especiales -->
+    <meta charset="UTF-8">
+
+    <!-- Título que aparece en la pestaña -->
+    <title>Tablas</title>
+
+</head>
+
+<body>
+
+    <table border="1">
+        <thead>
+            <!-- Encabezado -->
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Datos principales -->
+            <tr>
+                <td>Juan</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>María</td>
+                <td>22</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Teclado</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Mouse</td>
+                <td>50</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>150</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br><br>
+
+    <table border="1">
+        <!-- Encabezado de la tabla -->
+        <thead>
+            <tr>
+                <!-- colspan="2", indica que esta celda ocupará dos columnas -->
+                <th colspan="2"> Información de Estudiantes </th>
+            </tr>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <!-- Cuerpo de la tabla -->
+        <tbody>
+            <tr>
+                <td>Juan</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>María</td>
+                <td>22</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Área</th>
+                <th>Materia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- rowspan="3" ocupa tres filas -->
+                <td rowspan="3"> Programación </td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>

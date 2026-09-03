@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Matemática</title>
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🧮 Calculadora Matemática</h1>
+        <p>Realiza operaciones matemáticas básicas utilizando JavaScript.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>➕ Suma</h2>
+            <input id="sum-number-1" type="number" placeholder="Primer número">
+            <input id="sum-number-2" type="number" placeholder="Segundo número">
+            <button id="btn-sum">Calcular suma</button>
+            <p>Resultado: <strong id="sum-result">0</strong></p>
+        </section>
+
+        <section>
+            <h2>➖ Resta</h2>
+            <input id="subtract-number-1" type="number" placeholder="Primer número">
+            <input id="subtract-number-2" type="number" placeholder="Segundo número">
+            <button id="btn-subtract">Calcular resta</button>
+            <p>Resultado: <strong id="subtract-result">0</strong></p>
+        </section>
+
+        <section>
+            <h2>✖️ Multiplicación</h2>
+            <input id="multiply-number-1" type="number" placeholder="Primer número">
+            <input id="multiply-number-2" type="number" placeholder="Segundo número">
+            <button id="btn-multiply">Calcular multiplicación</button>
+            <p>Resultado: <strong id="multiply-result">0</strong></p>
+        </section>
+
+        <section>
+            <h2>➗ División</h2>
+            <input id="divide-number-1"type="number" placeholder="Primer número">
+            <input id="divide-number-2" type="number"placeholder="Segundo número">
+            <button id="btn-divide">Calcular división</button>
+            <p>Resultado: <strong id="divide-result">0</strong></p>
+        </section>
+
+        <section>
+            <h2>📊 Porcentaje</h2>
+            <input id="percentage-value" type="number" placeholder="Valor">
+            <input id="percentage-number"type="number" placeholder="Porcentaje">
+            <button id="btn-percentage">Calcular porcentaje</button>
+            <p>Resultado: <strong id="percentage-result">0</strong></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <small>
+            Programación en Ambiente Web I · JavaScript + MVC
+        </small>
+    </footer>
+
+    <script type="module"  src="js/app.js"></script>
+</body>
+
+</html>

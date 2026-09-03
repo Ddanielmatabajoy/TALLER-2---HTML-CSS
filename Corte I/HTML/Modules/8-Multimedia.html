@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- Permite mostrar caracteres especiales -->
+    <meta charset="UTF-8">
+
+    <!-- Título que aparece en la pestaña -->
+    <title>Multimedia</title>
+
+</head>
+
+<body>
+
+    <!-- audio permite reproducir archivos de sonido. -->
+    <audio controls>
+        <!-- source indica el archivo que se va a reproducir. -->
+        <source src="audio/musica.mp3">
+        <!-- Este mensaje aparece si el navegador no soporta la etiqueta audio. -->
+        Tu navegador no soporta audio.
+    </audio>
+
+    <br><br>
+
+    <!-- video permite reproducir videos locales. -->
+    <video width="600" controls>
+        <!-- Archivo de video. -->
+        <source src="videos/tutorial.mp4">
+        Tu navegador no soporta video.
+    </video>
+
+    <br><br>
+
+    <!-- iframe permite insertar contenido externo. -->
+    <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/VIDEO_ID"
+        title="Video de YouTube">
+    </iframe>
+
+</body>
+
+</html>

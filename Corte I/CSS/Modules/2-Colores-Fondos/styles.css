@@ -1,0 +1,15 @@
+body {
+    /* Color de fondo */
+    background-color: lightgray;
+}
+
+h1 {
+    /* Color del texto */
+    color: darkblue;
+}
+
+.caja {
+    background-color: yellow;
+    width: 300px;
+    height: 100px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+
+<body>
+    <main class="container">
+        <article>
+            <header>
+                <h1>Dashboard</h1>
+            </header>
+            <section>
+                <p>
+                    Bienvenido:
+                    <strong id="user-name"></strong>
+                </p>
+                <p>
+                    Correo Electronico:
+                    <strong id="user-email"></strong>
+                </p>
+                <p>
+                    Fecha:
+                    <strong id="current-date"></strong>
+                </p>
+            </section>
+            <footer>
+                <button id="logout" type="button">
+                    Cerrar sesión
+                </button>
+            </footer>
+        </article>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

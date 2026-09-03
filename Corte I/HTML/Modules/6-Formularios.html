@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- Permite mostrar caracteres especiales -->
+    <meta charset="UTF-8">
+
+    <!-- Título que aparece en la pestaña -->
+    <title>Formularios</title>
+
+</head>
+
+<body>
+
+    <!-- Título principal -->
+    <h1>Formulario de Registro</h1>
+
+    <!-- Formulario -->
+    <form>
+        <!-- Campo de texto -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <!-- Campo de contraseña -->
+        <label for="clave">Contraseña:</label>
+        <input type="password" id="clave" name="clave"><br><br>
+
+        <!-- Campo de correo -->
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo"><br><br>
+
+        <!-- Botón de envío -->
+        <button type="submit">Registrar</button>
+    </form>
+
+    <br><br><br>
+
+    <!-- Título principal -->
+    <h1>Encuesta de Satisfacción</h1>
+
+    <!-- Formulario -->
+    <form>
+        <!-- Pregunta con radio -->
+        <p>¿Cómo calificarías nuestro servicio?</p>
+        <label><input type="radio" name="calificacion" value="excelente"> Excelente</label><br>
+        <label><input type="radio" name="calificacion" value="bueno"> Bueno</label><br>
+        <label><input type="radio" name="calificacion" value="regular"> Regular</label><br>
+        <label><input type="radio" name="calificacion" value="malo"> Malo</label><br><br>
+
+        <!-- Pregunta con checkbox -->
+        <p>¿Qué aspectos te gustaron?</p>
+        <label><input type="checkbox" name="aspectos" value="atencion"> Atención</label><br>
+        <label><input type="checkbox" name="aspectos" value="rapidez"> Rapidez</label><br>
+        <label><input type="checkbox" name="aspectos" value="calidad"> Calidad</label><br><br>
+
+        <!-- Pregunta con select -->
+        <label for="pais">¿De qué país nos visitas?</label><br>
+        <select id="pais" name="pais">
+        <option value="colombia">Colombia</option>
+        <option value="mexico">México</option>
+        <option value="argentina">Argentina</option>
+        <option value="otros">Otros</option>
+        </select><br><br>
+
+        <!-- Pregunta con textarea -->
+        <label for="comentarios">Comentarios adicionales:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea><br><br>
+
+        <!-- Botón de envío -->
+        <button type="submit">Enviar Encuesta</button>
+    </form>
+    
+    <br><br><br>
+
+    <!-- Título principal -->
+    <h1>Formulario de Perfil Completo</h1>
+
+    <!-- Formulario -->
+    <form>
+        <!-- Fecha -->
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha"><br><br>
+
+        <!-- Hora -->
+        <label for="hora">Hora preferida de contacto:</label>
+        <input type="time" id="hora" name="hora"><br><br>
+
+        <!-- Color -->
+        <label for="color">Color favorito:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <!-- Rango -->
+        <label for="nivel">Nivel de satisfacción (0-10):</label>
+        <input type="range" id="nivel" name="nivel" min="0" max="10"><br><br>
+
+        <!-- URL -->
+        <label for="web">Página web personal:</label>
+        <input type="url" id="web" name="web"><br><br>
+
+        <!-- Teléfono -->
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+
+        <!-- Número -->
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" min="1" max="100"><br><br>
+
+        <!-- Botón de envío -->
+        <button type="submit">Guardar Perfil</button>
+    </form>
+
+    <br><br><br>
+
+    <!-- Título principal -->
+    <h1>Registro con Validaciones HTML5</h1>
+
+    <!-- Formulario -->
+    <form>
+        <!-- Campo obligatorio -->
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario" required><br><br>
+
+        <!-- Contraseña con longitud mínima y máxima -->
+        <label for="clave">Contraseña (6-12 caracteres):</label>
+        <input type="password" id="clave" name="clave" minlength="6" maxlength="12" required><br><br>
+
+        <!-- Edad con rango -->
+        <label for="edad">Edad (18-99):</label>
+        <input type="number" id="edad" name="edad" min="18" max="99" required><br><br>
+
+        <!-- Correo electrónico obligatorio -->
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <!-- Teléfono con patrón -->
+        <label for="telefono">Teléfono (10 dígitos):</label>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" required><br><br>
+
+        <!-- Botón de envío -->
+        <button type="submit">Registrar</button>
+    </form>
+
+</body>
+
+</html>

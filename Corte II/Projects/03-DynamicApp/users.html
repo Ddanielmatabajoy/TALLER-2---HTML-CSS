@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users App</title>
+</head>
+
+<body id="users" class="bg-primary">
+
+    <!-- Navbar -->
+    <!-- Example Render Navbar -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="../index.html">Example</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">
+                            example
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+
+    <main class="container py-5">
+        <section class="card shadow-lg border-0 rounded-4 p-4">
+            <div class="mb-4">
+                <h1 class="mb-2">👥 Users</h1>
+                <p class="text-secondary mb-0">Listado de usuarios obtenido desde la API DummyJSON.</p>
+            </div>
+            <div class="table-responsive">
+                <table id="users-table" class="table table-hover align-middle">
+                    <thead class="table-primary">
+                        <tr>
+                            <th>ID</th>
+                            <th>Full Name</th>
+                            <th>Email</th>
+                            <th>Age</th>
+                            <th>Phone</th>
+                            <th>Role</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Render dinámico -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

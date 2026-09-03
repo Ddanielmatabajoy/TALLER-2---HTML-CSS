@@ -1,0 +1,15 @@
+/* Selector por etiqueta Aplica a todos los h1 */
+
+h1 {
+    color: blue;
+}
+
+/* Selector por clase Se utiliza . */
+.texto-azul {
+    color: blue;
+}
+
+/* Selector por id Se utiliza # */
+#texto-rojo {
+    color:red;
+}
