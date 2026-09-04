@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="color-scheme" content="light dark">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Catálogo de Lenguajes de Programación</title>
+</head>
+<body>
+
+    <header class="container">
+
+        <h1>Catálogo de Lenguajes de Programación</h1>
+        <p>Descubre, explora y aprende sobre los lenguajes de programación más usados.</p>
+
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Lenguajes</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header> 
+
+    <main class="container">
+
+        <section>
+            <h2>Lenguajes Destacados</h2>
+
+            <div class="grid">
+
+                <article>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Logo de Python">
+                    <h3>Python</h3>
+                    <p>Guido van Rossum</p>
+                    <br>
+                    <p>Python es un lenguaje de programación de alto nivel, creado por Guido van Rossum y publicado por primera vez en 1991.</p>
+                    <p>Se destaca por su sintaxis clara y legible, lo que lo convierte en una excelente opción tanto para principiantes como para desarrolladores experimentados.
+                        Es ampliamente utilizado en desarrollo web, ciencia de datos, inteligencia artificial, automatización y muchas otras áreas gracias a su enorme
+                        ecosistema de bibliotecas.</p>
+                    <footer><a href="#">Ver más</a></footer>
+                </article>
+
+                <article>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="Logo de JavaScript">
+                    <h3>JavaScript</h3>
+                    <p>Brendan Eich</p>
+                    <br>
+                    <p>JavaScript es un lenguaje de programación interpretado, creado por Brendan Eich y presentado por primera vez en 1995.</p>
+                    <p>Es el lenguaje principal de la web, ya que permite crear páginas interactivas y dinámicas directamente en el navegador.
+                        Con la llegada de entornos como Node.js, también se utiliza para construir aplicaciones del lado del servidor,
+                        convirtiéndolo en uno de los lenguajes más versátiles y populares del mundo.</p>
+                    <footer><a href="#">Ver más</a></footer>
+                </article>
+
+                <article>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg" alt="Logo de Rust">
+                    <h3>Rust</h3>
+                    <p>Graydon Hoare / Mozilla</p>
+                    <br>
+                    <p>Rust es un lenguaje de programación de sistemas desarrollado originalmente por Graydon Hoare en Mozilla, publicado en 2010.</p>
+                    <p>Se caracteriza por ofrecer un alto rendimiento comparable al de C y C++, junto con garantías de seguridad de memoria
+                        verificadas en tiempo de compilación, sin necesidad de un recolector de basura. Esto lo ha hecho muy popular para
+                        el desarrollo de sistemas, motores de videojuegos y herramientas donde el rendimiento y la seguridad son críticos.</p>
+                    <footer><a href="#">Ver más</a></footer>
+                </article>
+
+            </div>
+        </section>
+
+        <h2>Agregar un Nuevo Lenguaje</h2>
+
+        <form>
+            <label for="nombre">Nombre del lenguaje</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej. Kotlin" required>
+
+            <label for="creador">Creador</label>
+            <input type="text" id="creador" name="creador" placeholder="Ej. JetBrains" required>
+
+            <button type="submit">Agregar Lenguaje</button>
+        </form>
+    </main>
+
+    <footer class="container">
+        <p>&copy; 2026 - Catálogo de Lenguajes de Programación</p>
+    </footer>
+</body>
+</html>
