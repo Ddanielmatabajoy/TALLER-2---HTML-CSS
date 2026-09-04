@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-   
     <meta name="color-scheme" content="light dark">
     
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css">
+    
     
     <link rel="stylesheet" href="styles.css">
 
@@ -15,91 +15,163 @@
 </head>
 <body>
    
-    <header class="container"> 
     
+    <header class="container" id="inicio"> 
         <h1> Mi Biblioteca Virtual</h1>
         <p>Descubre, explora y disfruta de una gran colección de libros.</p>
 
+        <!-- Menú -->
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Libros</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#inicio">Inicio</a></li>      
+                <li><a href="#libros">Libros</a></li>
+                <li><a href="#reservar">Reservar</a></li>
+                <li><a href="#prestamos">Préstamos</a></li>
+                <li><a href="#agregar">Agregar</a></li>
+                <li><a href="#contacto">Contacto</a></li>  
             </ul>
         </nav>
-
     </header>
 
     <main class="container">
 
-        <section>
+        <!--  Libros Destacados -->
+        <section id="libros">
             <h2>Libros Destacados</h2>
+            <div class="grid"> 
+                
+                <article>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr_71b_yRxXr-VjG-5n0vB-veLIQhYFom97-W36h8FFCXWmfbRHTnifoQ&s=10" alt="Portada Cien Años De Soledad" class="img-fluid">
+                    <h3>Cien años de Soledad</h3>
+                    <p><strong>Gabriel García Márquez</strong></p>
+                    <p>Es una novela clásica del escritor colombiano Gabriel García Márquez, publicada en 1967.</p>
+                    <p>Cien años de soledad es una novela del escritor colombiano ganador del Premio Nobel de Literatura Gabriel García Márquez. Es opinión general que se trata de una obra maestra de la literatura hispanoamericana y universal, y es una de las obras más traducidas y leídas en español.</p>
+                    <footer><a href="#" role="button">Ver más</a></footer>
+                </article>
 
-        <div class="grid"> 
-            
-            <article>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr_71b_yRxXr-VjG-5n0vB-veLIQhYFom97-W36h8FFCXWmfbRHTnifoQ&s=10" alt="Portada Cien Años De Soledad">
-                <h3>Cien años De Soledad</h3>
-                <p>Gabriel García Márquez</p>
-                <br>
-                <p>Es una novela clásica del escritor colombiano Gabriel García Márquez, publicada en 1967.</p>
-                <p>Cien años de soledad es una novela del escritor colombiano ganador del Premio Nobel de Literatura Gabriel García Márquez.
-                     Es opinión general que se trata de una obra maestra de la literatura hispanoamericana y universal,
-                    y es una de las obras más traducidas y leídas en español.</p>
-                <footer><a href="#">Ver más</a></footer>
-            </article>
+                <article>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDIxIqMF1lRlaxHPfqMwEbyaM9-k3g3f-Wfgni_ckH9kX9YsN_jAJJb8s&s=10" alt="Portada El Señor De Los Anillos" class="img-fluid">
+                    <h3>El Señor de los Anillos</h3>
+                    <p><strong>J. R. R. Tolkien</strong></p>
+                    <p>El Señor de los Anillos es una novela de fantasía épica escrita por el filólogo y escritor británico J. R. R. Tolkien, publicada el 29 de julio de 1954.</p>
+                    <p>Su historia se desarrolla en la Tercera Edad del Sol de la Tierra Media, un lugar ficticio poblado por hombres y otras razas antropomorfas, como los hobbits, los elfos o los enanos, así como por muchas otras criaturas reales y fantásticas. La novela narra el viaje del protagonista principal, Frodo Bolsón, hobbit de la Comarca, para destruir el Anillo Único y la consiguiente guerra que provocará el enemigo para recuperarlo, ya que es la principal fuente de poder de su creador, el señor oscuro Sauron.</p>
+                    <footer><a href="#" role="button">Ver más</a></footer>
+                </article>
 
-            <article> 
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDIxIqMF1lRlaxHPfqMwEbyaM9-k3g3f-Wfgni_ckH9kX9YsN_jAJJb8s&s=10" alt="Portada El Señor De Los Amillos">
-                <h3>El Señor De los Anillos</h3>
-                <p>J. R. R. Tolkien</p>
-                <br>
-                <p>El Señor de los Anillos es una novela de fantasía épica escrita por el filólogo y escritor británico J. R. R. Tolkien, 
-                    publicada el 29 de julio de 1954.</p>
-                <p>Su historia se desarrolla en la Tercera Edad del Sol de la Tierra Media,
-                    un lugar ficticio poblado por hombres y otras razas antropomorfas, como los hobbits,
-                    los elfos o los enanos, así como por muchas otras criaturas reales y fantásticas. 
-                    La novela narra el viaje del protagonista principal, Frodo Bolsón, hobbit de la Comarca, 
-                    para destruir el Anillo Único y la consiguiente guerra que provocará el enemigo para recuperarlo, 
-                    ya que es la principal fuente de poder de su creador, el señor oscuro Sauron.</p>
-
-            </article>
-
-            <article>
-                <img src="https://www.pottermorepublishing.com/wp-content/covers/web/9781781102701.jpg" alt="Portada Harry Potter y las reliquias de la muerte">
-                <h3>Harry Potter y Las reliquias De La Muerte</h3>
-                <p>J. K. Rowling</p>
-                <br>
-                <p>Harry Potter y las reliquias de la Muerte, es el séptimo libro de la serie literaria Harry Potter,
-                 escrita por la autora británica J. K. Rowling. El libro se publicó el 21 de julio de 2007</p>
-                 <p>Cerrando la serie que empezó diez años antes con la publicación de Harry Potter y la piedra filosofal publicado en 1997.
-                 Este último libro narra los acontecimientos que siguen directamente al libro anterior:
-                 Harry Potter y el misterio del príncipe —publicado en 2005—, y concluye con el enfrentamiento final,
-                 largamente esperado, entre Harry Potter junto a sus amigos, frente a lord Voldemort y los Mortífagos.</p>
-
-            </article>
+                <article>
+                    <img src="https://www.pottermorepublishing.com/wp-content/covers/web/9781781102701.jpg" alt="Portada Harry Potter y las reliquias de la muerte" class="img-fluid">
+                    <h3>Harry Potter y las reliquias de la Muerte</h3>
+                    <p><strong>J. K. Rowling</strong></p>
+                    <p>Harry Potter y las reliquias de la Muerte es el séptimo libro de la serie literaria Harry Potter, escrita por la autora británica J. K. Rowling. El libro se publicó el 21 de julio de 2007.</p>
+                    <p>Cerrando la serie que empezó diez años antes con la publicación de Harry Potter y la piedra filosofal publicado en 1997. Este último libro narra los acontecimientos que siguen directamente al libro anterior: Harry Potter y el misterio del príncipe —publicado en 2005—, y concluye con el enfrentamiento final, largamente esperado, entre Harry Potter junto a sus amigos, frente a lord Voldemort y los Mortífagos.</p>
+                    <footer><a href="#" role="button">Ver más</a></footer>
+                </article>
 
 
+            </div> 
+        </section>
 
-            </section>
-        </div>
+        <!--  Reservar un Libro -->
+        <section id="reservar">
+            <h2>Reservar un Libro</h2>
+            <p>Completa el formulario para apartar tu libro favorito.</p>
+            <form>
+                <div class="grid">
+                    <div>
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" placeholder="Ej. Ana Pérez" required>
+                    </div>
+                    <div>
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" placeholder="ana@email.com" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="libro-reserva">Selecciona un libro</label>
+                    <select id="libro-reserva" required>
+                        <option disabled selected>Elige un libro</option>
+                        <option>Cien años de soledad</option>
+                        <option>El Señor De Los Anillos</option>
+                        <option>Harry Potter y Las reliquias De La Muerte</option>
+                    </select> <!-- CORREGIDO: etiqueta de cierre añadida -->
+                </div>
+                <div>
+                    <label for="fecha">Fecha de reserva</label>
+                    <input type="date" id="fecha" required>
+                </div>
+                <div>
+                    <label for="comentario-reserva">Comentario adicional</label>
+                    <textarea id="comentario-reserva" placeholder="Alguna observación..."></textarea>
+                </div>
+                <button type="submit">Reservar</button>
+            </form>
+        </section>
 
-        <h2>Agregar un Nuevo Libro</h2>
-       
-        <form>
-            <label for="titulo">Título del libro</label>
-            <input type="text" id="titulo" name="titulo" placeholder="Ej. El Hobbit" required>
-            
-            <label for="autor">Autor</label>
-            <input type="text" id="autor" name="autor" placeholder="Ej. J.R.R. Tolkien" required>
+        <!--  Mis Préstamos -->
+        <section id="prestamos">
+            <h2> Mis Préstamos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Libro</th>
+                        <th>Fecha de Préstamo</th>
+                        <th>Fecha de Devolución</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cien Años De Soledad</td>
+                        <td>2026-09-01</td>
+                        <td>2026-09-15</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>1984</td>
+                        <td>2026-08-20</td>
+                        <td>2026-09-03</td>
+                        <td>Vencido</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-            <button type="submit">Agregar Libro</button>
-        </form>
+        <!--  Agregar un Nuevo Libro -->
+        <section id="agregar">
+            <h2> Agregar un Nuevo Libro</h2>
+            <form>
+                <div class="grid">
+                    <div>
+                        <label for="titulo">Título del libro</label>
+                        <input type="text" id="titulo" name="titulo" placeholder="Ej. El Hobbit" required>
+                    </div>
+                    <div>
+                        <label for="autor">Autor</label>
+                        <input type="text" id="autor" name="autor" placeholder="Ej. J.R.R. Tolkien" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="imagen">URL de la imagen (opcional)</label>
+                    <input type="url" id="imagen" name="imagen" placeholder="https://ejemplo.com/portada.jpg">
+                </div>
+                <button type="submit">Agregar Libro</button>
+            </form>
+        </section>
+
+        <!--  Contacto -->
+        <section id="contacto">
+            <h2> Contacto</h2>
+            <p>¿Tienes preguntas o sugerencias? Escríbenos a <a href="mailto:info@biblioteca.com">info@biblioteca.com</a></p>
+            <p> Ubicación: Biblioteca Central, Universidad</p>
+        </section>
+
     </main>
 
-    <footer>
+    <!-- Pie De Pagina -->
+    <footer class="container">
         <p>&copy; 2026 - Mi Biblioteca Virtual</p>
-        <p>Hecho con Amor y Pico CSS</p>
+        <p>Hecho con amor y Pico CSS</p>
     </footer>
+
 </body>
 </html>
