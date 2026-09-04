@@ -6,6 +6,10 @@ header h1{
     text-align: center;
 }
 
+header p{
+    text-align: center;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
