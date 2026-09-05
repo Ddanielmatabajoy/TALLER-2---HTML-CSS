@@ -1,8 +1,8 @@
-# 📚 Catálogo de Lenguajes de Programación
+# 📚 Taller de Desarrollo Web - Biblioteca Virtual y Catálogo de Lenguajes
 
-> Proyecto colaborativo para el taller de **Programación en Ambiente Web I**.  
-> Desarrollado con HTML, CSS y Pico CSS (classless).
+Proyecto desarrollado para la asignatura **Programación en Ambiente Web I**, como parte del taller práctico sobre HTML semántico, CSS y control de versiones con Git.
 
+Este repositorio contiene **dos páginas web independientes** que comparten un mismo espacio de trabajo, demostrando el uso de buenas prácticas en desarrollo front-end y trabajo colaborativo.
 ---
 
 ##  Descripción
@@ -49,7 +49,7 @@ text
 
 1. Clona este repositorio:
    ```bash
-   git clone  
+   git clone  https://github.com/Ddanielmatabajoy/TALLER-2---HTML-CSS/tree/main
    
 Autores:
 -Andres Mauricio Navarro 
