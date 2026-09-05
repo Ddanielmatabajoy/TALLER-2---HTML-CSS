@@ -49,9 +49,10 @@ text
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone  
+   
+Autores:
+-Andres Mauricio Navarro 
+-Daniel Estaban Matabajoy 
 
-👥 Autores
-Andres Mauricio Navarro 
-Daniel Estaban Matabajoy 
 
